@@ -1,14 +1,14 @@
-Column Name,Data Type,First Value
-topic,object,/apollo/sensor/gnss/gnss_status
-time,int64,1713980657064756790
-size,int64,28
-msg_type,object,
-_id.$oid,object,66310ffd7ae1f4a1c6c6ea64
-metadataID.$oid,object,66310ffc7ae1f4a1c6c6e856
-header.timestampSec,float64,1713980657.0637543
-header.moduleName,object,gnss
-header.sequenceNum,float64,370.0
-solutionCompleted,object,True
-solutionStatus,float64,0.0
-positionType,float64,56.0
-numSats,float64,18.0
+Column Name,Data Type,Units,Description,First Value
+topic,object,,Topic name,/apollo/sensor/gnss/gnss_status
+time,int64,nano-seconds,Unix Time stamp,1.71398065706476E+018
+size,int64,,,28
+msg_type,object,,,
+_id.$oid,object,,ROS Metadata,66310ffd7ae1f4a1c6c6ea64
+metadataID.$oid,object,,ROS Metadata,66310ffc7ae1f4a1c6c6e856
+header.timestampSec,float64,seconds,Unix Time stamp,1713980657.06375
+header.moduleName,object,,Module name,gnss
+header.sequenceNum,float64,,Message update number,370
+solutionCompleted,Boolean,,Is solution completed (True/ False),True
+solutionStatus,float64,,,0
+positionType,float64,,,56
+numSats,float64,,Number of satellites in solution,18

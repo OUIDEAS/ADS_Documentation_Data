@@ -1,86 +1,86 @@
-Column Name,Data Type,First Value
-topic,object,/apollo/canbus/chassis_detail
-time,int64,1713980656085879605
-size,int64,262
-msg_type,object,
-_id.$oid,object,66310ffc7ae1f4a1c6c6e8a6
-metadataID.$oid,object,66310ffc7ae1f4a1c6c6e856
-header.timestampSec,float64,1713980656.08479
-header.moduleName,object,canbus
-header.sequenceNum,float64,18260.0
-pacifica.steeringRpt1f03.steeringAngleActual,float64,4.623377
-pacifica.steeringRpt1f03.steeringAngleDesired,float64,264.9
-pacifica.steeringRpt1f03.steeringWhlPcntTrqCmd,float64,0.0
-pacifica.steeringRpt1f03.controlType,object,NONE
-pacifica.steeringRpt1f03.enabled,object,False
-pacifica.steeringRpt1f03.driverActivity,object,False
-pacifica.steeringRpt1f03.fault,object,False
-pacifica.steeringRpt1f03.overheatPreventionMode,object,False
-pacifica.steeringRpt1f03.overheatWarning,object,False
-pacifica.steeringRpt1f03.rollingCounter,float64,9.0
-pacifica.otherActuatorsRpt1f14.turnSignalRpt,object,TURN_SIGNAL_OFF
-pacifica.otherActuatorsRpt1f14.rightRearDoorRpt,object,REAR_DOOR_CLOSE_DOOR
-pacifica.otherActuatorsRpt1f14.leftRearDoorRpt,object,REAR_DOOR_CLOSE_DOOR
-pacifica.otherActuatorsRpt1f14.hornRpt,object,HORN_SNA
-pacifica.otherActuatorsRpt1f14.frontWiperRpt,object,FRONT_WIPER_OFF
-pacifica.otherActuatorsRpt1f14.rearWiperRpt,object,REAR_WIPER_OFF
-pacifica.otherActuatorsRpt1f14.ignitionRpt,object,IGNITION_RUN
-pacifica.otherActuatorsRpt1f14.highBeamRpt,object,HIGH_BEAM_NO_REQUEST
-pacifica.otherActuatorsRpt1f14.lowBeamRpt,object,LOW_BEAM_NO_REQUEST
-pacifica.otherActuatorsRpt1f14.liftgateRpt,object,LIFTGATE_CLOSE_DOOR
-pacifica.otherActuatorsRpt1f14.rollingCounterRpt,float64,13.0
-pacifica.driverInputs1f0f.doorOrHoodAjar,object,False
-pacifica.driverInputs1f0f.airbagDeployed,object,False
-pacifica.driverInputs1f0f.seatbeltUnbuckled,object,False
-pacifica.driverInputs1f0f.cruiseResumeBtn,object,False
-pacifica.driverInputs1f0f.cruiseCancelBtn,object,False
-pacifica.driverInputs1f0f.cruiseAccelBtn,object,False
-pacifica.driverInputs1f0f.cruiseDecelBtn,object,False
-pacifica.driverInputs1f0f.cruiseOnOffBtn,object,False
-pacifica.driverInputs1f0f.accOnOffBtn,object,False
-pacifica.driverInputs1f0f.accIncDistanceBtn,object,False
-pacifica.driverInputs1f0f.accDecDistanceBtn,object,False
-pacifica.driverInputs1f0f.inputHighBeam,object,HIGH_BEAM_ON_IF_LIGHTS_ON
-pacifica.driverInputs1f0f.inputTurnSignal,object,TURN_SIGNAL_OFF
-pacifica.driverInputs1f0f.inputWiperBtn,object,FRONT_WIPER_OFF
-pacifica.wheelSpeedRpt1f0b.wheelSpdRearRight,float64,7.906345
-pacifica.wheelSpeedRpt1f0b.wheelSpdRearLeft,float64,6.859147
-pacifica.wheelSpeedRpt1f0b.wheelSpdFrontRight,float64,8.168144
-pacifica.wheelSpeedRpt1f0b.wheelSpdFrontLeft,float64,7.0685863
-pacifica.accelRpt1f02.pedalInput,float64,0.0
-pacifica.accelRpt1f02.pedalOutput,float64,0.0
-pacifica.accelRpt1f02.enabled,object,False
-pacifica.accelRpt1f02.ignoreDriver,object,False
-pacifica.accelRpt1f02.driverActivity,object,False
-pacifica.accelRpt1f02.faultAccelPedalSystem,object,False
-pacifica.accelRpt1f02.faultCh1,object,False
-pacifica.accelRpt1f02.faultCh2,object,False
-pacifica.accelRpt1f02.torqueActual,float64,0.0
-pacifica.accelRpt1f02.controlType,object,NONE
-pacifica.brakeRpt1f04.pedalInput,float64,0.0
-pacifica.brakeRpt1f04.pedalOutput,float64,0.0
-pacifica.brakeRpt1f04.enabled,object,False
-pacifica.brakeRpt1f04.driverActivity,object,False
-pacifica.brakeRpt1f04.faultBrakePedalSystem,object,False
-pacifica.brakeRpt1f04.faultCh1,object,False
-pacifica.brakeRpt1f04.faultCh2,object,False
-pacifica.brakeRpt1f04.torqueActual,float64,0.0
-pacifica.brakeRpt1f04.brakeInterventionActive,object,False
-pacifica.brakeRpt1f04.brakeInterventionReady,object,True
-pacifica.brakeRpt1f04.controlType,object,NONE
-pacifica.brakeRpt1f04.parkingBrakeStatus,object,FAULT
-pacifica.prndRpt1f05.stateActual,object,DRIVE
-pacifica.prndRpt1f05.stateReject,object,False
-pacifica.prndRpt1f05.driverActivity,object,False
-pacifica.prndRpt1f05.fault,object,False
-pacifica.prndRpt1f05.enabled,object,False
-pacifica.miscRpt1f01.miscDbwEnabled,object,False
-pacifica.miscRpt1f01.miscFault,object,False
-pacifica.miscRpt1f01.miscAkitCommFault,object,False
-pacifica.miscRpt1f01.miscBywireReady,object,True
-pacifica.miscRpt1f01.miscDriverActivity,object,True
-pacifica.miscRpt1f01.miscVehReadyToDrive,object,True
-pacifica.miscRpt1f01.miscVehSpeed,float64,2.7495673
-pacifica.miscRpt1f01.miscFuelLevel,float64,57.0
-pacifica.miscRpt1f01.miscSoftwareBuildNumber,float64,514.0
-pacifica.miscRpt1f01.miscAmbientTemp,float64,17.0
+Column Name,Data Type,Units,Description,First Value
+topic,object,,Topic name,/apollo/canbus/chassis_detail
+time,int64,Nano-seconds,Unix Time Stamp,1.71398065608588E+018
+size,int64,,,262
+msg_type,object,,,
+_id.$oid,object,,ROS Metadata,66310ffc7ae1f4a1c6c6e8a6
+metadataID.$oid,object,,ROS Metadata,66310ffc7ae1f4a1c6c6e856
+header.timestampSec,float64,seconds,Unix Time Stamp,1713980656.08479
+header.moduleName,object,,Topic Module name,canbus
+header.sequenceNum,float64,,message update number,18260
+pacifica.steeringRpt1f03.steeringAngleActual,float64,Percentage,Percentage turn of the steering wheel (0 represents straight/ 360 is one rotation/ counter clockwise is positive),4.623377
+pacifica.steeringRpt1f03.steeringAngleDesired,float64,Percentage,Control desired percentage,264.9
+pacifica.steeringRpt1f03.steeringWhlPcntTrqCmd,float64,,,0
+pacifica.steeringRpt1f03.controlType,object,,,NONE
+pacifica.steeringRpt1f03.enabled,Boolean,,,False
+pacifica.steeringRpt1f03.driverActivity,Boolean,,Is the driver interacting with the steering wheel (True = yes/ False = no),False
+pacifica.steeringRpt1f03.fault,Boolean,,,False
+pacifica.steeringRpt1f03.overheatPreventionMode,Boolean,,,False
+pacifica.steeringRpt1f03.overheatWarning,Boolean,,,False
+pacifica.steeringRpt1f03.rollingCounter,float64,,,9
+pacifica.otherActuatorsRpt1f14.turnSignalRpt,object,,Turn signal status (TURN_SIGNAL_OFF/ TURN_SIGNAL_RIGHT/ TURN_SIGNAL_LEFT),TURN_SIGNAL_OFF
+pacifica.otherActuatorsRpt1f14.rightRearDoorRpt,object,,Rear Passenger side door status (REAR_DOOR_CLOSE_DOOR),REAR_DOOR_CLOSE_DOOR
+pacifica.otherActuatorsRpt1f14.leftRearDoorRpt,object,,Rear Driver side door status (REAR_DOOR_CLOSE_DOOR),REAR_DOOR_CLOSE_DOOR
+pacifica.otherActuatorsRpt1f14.hornRpt,object,,Horn Status (Off = HORN_SNA),HORN_SNA
+pacifica.otherActuatorsRpt1f14.frontWiperRpt,object,,Front Windshield Wiper Status (Off = FRONT_WIPER_OFF),FRONT_WIPER_OFF
+pacifica.otherActuatorsRpt1f14.rearWiperRpt,object,,Rear Windshield Wiper Status (Off = REAR_WIPER_OFF),REAR_WIPER_OFF
+pacifica.otherActuatorsRpt1f14.ignitionRpt,object,,Ignition Status (On = IGNITION_RUN),IGNITION_RUN
+pacifica.otherActuatorsRpt1f14.highBeamRpt,object,,,HIGH_BEAM_NO_REQUEST
+pacifica.otherActuatorsRpt1f14.lowBeamRpt,object,,,LOW_BEAM_NO_REQUEST
+pacifica.otherActuatorsRpt1f14.liftgateRpt,object,,,LIFTGATE_CLOSE_DOOR
+pacifica.otherActuatorsRpt1f14.rollingCounterRpt,float64,,,13
+pacifica.driverInputs1f0f.doorOrHoodAjar,Boolean,,Door or hood open (True = Door or Hood open/ False = Door and Hood closed) ,False
+pacifica.driverInputs1f0f.airbagDeployed,Boolean,,airbag is deployed (True = Airbag deployed/ False = Airbag not deployed) ,False
+pacifica.driverInputs1f0f.seatbeltUnbuckled,Boolean,,driver seatbelt is unbuckled (True = unbuckled/ False = buckled),False
+pacifica.driverInputs1f0f.cruiseResumeBtn,Boolean,,Cruise control resume button press (True = Button pressed/ False = Button not pressed),False
+pacifica.driverInputs1f0f.cruiseCancelBtn,Boolean,,Cruise control cancel button press (True = Button pressed/ False = Button not pressed),False
+pacifica.driverInputs1f0f.cruiseAccelBtn,Boolean,,Cruise control accelerate button press (True = Button pressed/ False = Button not pressed),False
+pacifica.driverInputs1f0f.cruiseDecelBtn,Boolean,,Cruise control decelerate button press (True = Button pressed/ False = Button not pressed),False
+pacifica.driverInputs1f0f.cruiseOnOffBtn,Boolean,,Cruise control on/off button press (True = Button pressed/ False = Button not pressed),False
+pacifica.driverInputs1f0f.accOnOffBtn,Boolean,,,False
+pacifica.driverInputs1f0f.accIncDistanceBtn,Boolean,,,False
+pacifica.driverInputs1f0f.accDecDistanceBtn,Boolean,,,False
+pacifica.driverInputs1f0f.inputHighBeam,object,,Driver Input to High Beams,HIGH_BEAM_ON_IF_LIGHTS_ON
+pacifica.driverInputs1f0f.inputTurnSignal,object,,Driver Input to Turn Signal (TURN_SIGNAL_OFF/ TURN_SIGNAL_RIGHT/ TURN_SIGNAL_LEFT),TURN_SIGNAL_OFF
+pacifica.driverInputs1f0f.inputWiperBtn,object,,Driver Input to Front Wipers (Off = FRONT_WIPER_OFF),FRONT_WIPER_OFF
+pacifica.wheelSpeedRpt1f0b.wheelSpdRearRight,float64,,,7.906345
+pacifica.wheelSpeedRpt1f0b.wheelSpdRearLeft,float64,,,6.859147
+pacifica.wheelSpeedRpt1f0b.wheelSpdFrontRight,float64,,,8.168144
+pacifica.wheelSpeedRpt1f0b.wheelSpdFrontLeft,float64,,,7.0685863
+pacifica.accelRpt1f02.pedalInput,float64,Percentage,Driver Input to Acceleration Pedal (0% - 100%),0
+pacifica.accelRpt1f02.pedalOutput,float64,Percentage,Vehicle Acceleration Pedal output (0% - 100%),0
+pacifica.accelRpt1f02.enabled,Boolean,,Acceleration pedal status (True = Engaged/ False = Disengaged),False
+pacifica.accelRpt1f02.ignoreDriver,Boolean,,Does the vehicle accept acceleration pedal inputs from the driver (True = Ignore driver inputs/ False = Accept driver inputs),False
+pacifica.accelRpt1f02.driverActivity,Boolean,,Is the driver interacting with the acceleration pedal (True = Yes/ False = No),False
+pacifica.accelRpt1f02.faultAccelPedalSystem,Boolean,,,False
+pacifica.accelRpt1f02.faultCh1,Boolean,,,False
+pacifica.accelRpt1f02.faultCh2,Boolean,,,False
+pacifica.accelRpt1f02.torqueActual,float64,,,0
+pacifica.accelRpt1f02.controlType,object,,,NONE
+pacifica.brakeRpt1f04.pedalInput,float64,Percentage,Driver Input to Brake Pedal (0% - 100%),0
+pacifica.brakeRpt1f04.pedalOutput,float64,Percentage,Vehicle Brake Pedal output (0% - 100%),0
+pacifica.brakeRpt1f04.enabled,Boolean,,Brake pedal status (True = Engaged/ False = Disengaged),False
+pacifica.brakeRpt1f04.driverActivity,Boolean,,Is the driver interacting with the brake pedal (True = Yes/ False = No),False
+pacifica.brakeRpt1f04.faultBrakePedalSystem,Boolean,,,False
+pacifica.brakeRpt1f04.faultCh1,Boolean,,,False
+pacifica.brakeRpt1f04.faultCh2,Boolean,,,False
+pacifica.brakeRpt1f04.torqueActual,float64,,,0
+pacifica.brakeRpt1f04.brakeInterventionActive,Boolean,,,False
+pacifica.brakeRpt1f04.brakeInterventionReady,Boolean,,,True
+pacifica.brakeRpt1f04.controlType,object,,,NONE
+pacifica.brakeRpt1f04.parkingBrakeStatus,object,,,FAULT
+pacifica.prndRpt1f05.stateActual,object,,What is the vehicle state? (DRIVE),DRIVE
+pacifica.prndRpt1f05.stateReject,Boolean,,,False
+pacifica.prndRpt1f05.driverActivity,Boolean,,,False
+pacifica.prndRpt1f05.fault,Boolean,,,False
+pacifica.prndRpt1f05.enabled,Boolean,,,False
+pacifica.miscRpt1f01.miscDbwEnabled,Boolean,,,False
+pacifica.miscRpt1f01.miscFault,Boolean,,,False
+pacifica.miscRpt1f01.miscAkitCommFault,Boolean,,,False
+pacifica.miscRpt1f01.miscBywireReady,Boolean,,Drive by wire status (True = Ready/ False = Not Ready),True
+pacifica.miscRpt1f01.miscDriverActivity,Boolean,,,True
+pacifica.miscRpt1f01.miscVehReadyToDrive,Boolean,,,True
+pacifica.miscRpt1f01.miscVehSpeed,float64,,,2.7495673
+pacifica.miscRpt1f01.miscFuelLevel,float64,Percentage,Fuel tank percentage (0% - 100%),57
+pacifica.miscRpt1f01.miscSoftwareBuildNumber,float64,,Apollo Software Build Number,514
+pacifica.miscRpt1f01.miscAmbientTemp,float64,Degrees,Ambient Temperature in Celsius,17

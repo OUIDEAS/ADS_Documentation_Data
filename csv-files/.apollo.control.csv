@@ -1,24 +1,24 @@
-Column Name,Data Type,First Value
-topic,object,/apollo/control
-time,int64,1713980655884485144
-size,int64,791
-msg_type,object,
-throttle,float64,0.0
-brake,float64,0.0
-gearLocation,object,GEAR_DRIVE
-_id.$oid,object,66310ffc7ae1f4a1c6c6e857
-metadataID.$oid,object,66310ffc7ae1f4a1c6c6e856
-header.timestampSec,float64,1713980655.8842058
-header.moduleName,object,control
-header.sequenceNum,float64,17501.0
-header.lidarTimestamp,object,1713980655779477040
-header.cameraTimestamp,object,0
-header.radarTimestamp,object,0
-header.status.errorCode,object,OK
-latencyStats.totalTimeMs,float64,0.28842
-latencyStats.totalTimeExceeded,object,True
-padMsg.header.timestampSec,float64,1713980593.4451
-padMsg.header.moduleName,object,HMI
-padMsg.header.sequenceNum,float64,10.0
-padMsg.action,object,RESET
-engageAdvice.advice,object,READY_TO_ENGAGE
+Column Name,Data Type,Units,Description,First Value
+topic,object,,Topic name,/apollo/control
+time,int64,nano-seconds,Unix Time stamp,1.71398065588449E+018
+size,int64,,,791
+msg_type,object,,,
+throttle,float64,,,0
+brake,float64,,,0
+gearLocation,object,,Vehicle State (GEAR_DRIVE),GEAR_DRIVE
+_id.$oid,object,,ROS Metadata,66310ffc7ae1f4a1c6c6e857
+metadataID.$oid,object,,ROS Metadata,66310ffc7ae1f4a1c6c6e856
+header.timestampSec,float64,seconds,Unix Time stamp,1713980655.88421
+header.moduleName,object,,Module name,control
+header.sequenceNum,float64,,message update number,17501
+header.lidarTimestamp,object,nano-seconds,LiDAR Unix Time stamp,1.71398065577948E+018
+header.cameraTimestamp,object,nano-seconds,Camera Unix Time stamp,0
+header.radarTimestamp,object,nano-seconds,RADAR Unix Time stamp,0
+header.status.errorCode,object,,,OK
+latencyStats.totalTimeMs,float64,,,0.28842
+latencyStats.totalTimeExceeded,Boolean,,,True
+padMsg.header.timestampSec,float64,seconds,Pad Unix Time stamp,1713980593.4451
+padMsg.header.moduleName,object,,Pad Module name,HMI
+padMsg.header.sequenceNum,float64,,Pad message update number,10
+padMsg.action,object,,,RESET
+engageAdvice.advice,object,,Apollo’s autonomous mode advice (READY_TO_ENGAGE/ DISALLOW_ENGAGE),READY_TO_ENGAGE

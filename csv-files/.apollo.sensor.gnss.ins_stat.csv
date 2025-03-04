@@ -1,12 +1,12 @@
-Column Name,Data Type,First Value
-topic,object,/apollo/sensor/gnss/ins_stat
-time,int64,1713980657057664690
-size,int64,24
-msg_type,object,
-_id.$oid,object,66310ffd7ae1f4a1c6c6ea58
-metadataID.$oid,object,66310ffc7ae1f4a1c6c6e856
-header.timestampSec,float64,1713980657.0574691
-header.moduleName,object,gnss
-header.sequenceNum,float64,738.0
-insStatus,float64,3.0
-posType,float64,56.0
+Column Name,Data Type,Units,Description,First Value
+topic,object,,Topic Name,/apollo/sensor/gnss/ins_stat
+time,int64,nano-seconds,Unix Time stamp,1.71398065705766E+018
+size,int64,,,24
+msg_type,object,,,
+_id.$oid,object,,ROS Metadata,66310ffd7ae1f4a1c6c6ea58
+metadataID.$oid,object,,ROS Metadata,66310ffc7ae1f4a1c6c6e856
+header.timestampSec,float64,seconds,Unix Time stamp,1713980657.05747
+header.moduleName,object,,Module name,gnss
+header.sequenceNum,float64,,Message update number,738
+insStatus,float64,,,3
+posType,float64,,,56

@@ -1,11 +1,11 @@
-Column Name,Data Type,First Value
-topic,object,/apollo/monitor
-time,int64,1713980668238545214
-size,int64,111
-msg_type,object,
-_id.$oid,object,663110097ae1f4a1c6c7101a
-metadataID.$oid,object,663110067ae1f4a1c6c706f4
-header.timestampSec,float64,1713980668.2382827
-header.moduleName,object,monitor
-header.sequenceNum,float64,1203.0
-item,object,"[{'source': 'LOCALIZATION', 'msg': 'Raw IMU Message Delay. IMU message is 11 cycle 0.118281 sec behind current time.', 'logLevel': 'ERROR'}]"
+Column Name,Data Type,Units,Description,First Value
+topic,object,,Topic name,/apollo/monitor
+time,int64,nano-seconds,Unix Time stamp,1.71398066823855E+018
+size,int64,,,111
+msg_type,object,,,
+_id.$oid,object,,ROS metadata,663110097ae1f4a1c6c7101a
+metadataID.$oid,object,,ROS metadata,663110067ae1f4a1c6c706f4
+header.timestampSec,float64,seconds,Unix Time stamp,1713980668.23828
+header.moduleName,object,,Module name,monitor
+header.sequenceNum,float64,,message update number,1203
+item,object,,Dictionary of IMU delay information,"[{'source': 'LOCALIZATION', 'msg': 'Raw IMU Message Delay. IMU message is 11 cycle 0.118281 sec behind current time.', 'logLevel': 'ERROR'}]"

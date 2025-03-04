@@ -3,14 +3,14 @@ topic,object,,
 time,int64,nano-seconds,Unix Time Stamp
 size,int64,,
 msg_type,object,,
-_id.$oid,object,,Ros Metadata
-metadataID.$oid,object,,Ros Metadata
+_id.$oid,object,,ROS Metadata
+metadataID.$oid,object,,ROS Metadata
 header.timestampSec,float64,seconds,Unix Time Stamp
 header.moduleName,object,,topic module name
 header.sequenceNum,float64,,message update number
 measurementTime,float64,seconds,time when pose was calculated (in unix time)
-pose.position.x,float64,meters,UTM Coordinate System
-pose.position.y,float64,meters,UTM Coordinate System
+pose.position.x,float64,meters,UTM Coordinate System (x coordinate)
+pose.position.y,float64,meters,UTM Coordinate System (y coordinate)
 pose.position.z,float64,meters,Elevation from mean sea level
 pose.orientation.qx,float64,Radians,Quaternion – x component
 pose.orientation.qy,float64,Radians,Quaternion – y component

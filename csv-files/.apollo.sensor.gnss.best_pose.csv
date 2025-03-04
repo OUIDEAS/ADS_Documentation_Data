@@ -1,31 +1,31 @@
-Column Name,Data Type,First Value
-topic,object,/apollo/sensor/gnss/best_pose
-time,int64,1713980657064677508
-size,int64,119
-msg_type,object,
-_id.$oid,object,66310ffd7ae1f4a1c6c6ea61
-metadataID.$oid,object,66310ffc7ae1f4a1c6c6e856
-header.timestampSec,float64,1713980657.059782
-header.moduleName,object,gnss
-header.sequenceNum,float64,369.0
-measurementTime,float64,1398015875.0
-solStatus,object,SOL_COMPUTED
-solType,object,NARROW_INT
-latitude,float64,39.320530378056446
-longitude,float64,-82.11015735571935
-heightMsl,float64,218.55521821137518
-undulation,float64,-35.0
-datumId,object,WGS84
-latitudeStdDev,float64,0.014109332
-longitudeStdDev,float64,0.012643888
-heightStdDev,float64,0.03431445
-baseStationId,object,MTY1NQ==
-differentialAge,float64,2.0
-solutionAge,float64,0.0
-numSatsTracked,float64,19.0
-numSatsInSolution,float64,16.0
-numSatsL1,float64,16.0
-numSatsMulti,float64,15.0
-extendedSolutionStatus,float64,33.0
-galileoBeidouUsedMask,float64,55.0
-gpsGlonassUsedMask,float64,7.0
+Column Name,Data Type,Units,Description,First Value
+topic,object,,Topic name,/apollo/sensor/gnss/best_pose
+time,int64,nano-seconds,Unix Time stamp,1.71398065706468E+018
+size,int64,,,119
+msg_type,object,,,
+_id.$oid,object,,ROS Metadata,66310ffd7ae1f4a1c6c6ea61
+metadataID.$oid,object,,ROS Metadata,66310ffc7ae1f4a1c6c6e856
+header.timestampSec,float64,seconds,Unix Time stamp,1713980657.05978
+header.moduleName,object,,Module name,gnss
+header.sequenceNum,float64,,Message update number,369
+measurementTime,float64,,Epoch Time,1398015875
+solStatus,object,,,SOL_COMPUTED
+solType,object,,,NARROW_INT
+latitude,float64,,GNSS computed latitude,39.3205303780564
+longitude,float64,,GNSS computed longitude,-82.1101573557194
+heightMsl,float64,,Height from mean sea level,218.555218211375
+undulation,float64,,,-35
+datumId,object,,Datum used,WGS84
+latitudeStdDev,float64,,Standard deviation in Latitude,0.014109332
+longitudeStdDev,float64,,Standard deviation in Longitude,0.012643888
+heightStdDev,float64,,Standard deviation in height,0.03431445
+baseStationId,object,,Base station ID,MTY1NQ==
+differentialAge,float64,,,2
+solutionAge,float64,,,0
+numSatsTracked,float64,,Number of satellites tracked,19
+numSatsInSolution,float64,,Number of satellites in solution,16
+numSatsL1,float64,,,16
+numSatsMulti,float64,,,15
+extendedSolutionStatus,float64,,,33
+galileoBeidouUsedMask,float64,,,55
+gpsGlonassUsedMask,float64,,,7
