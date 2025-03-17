@@ -1,33 +1,33 @@
-Column Name,Data Type,Units,Description,First Value
-topic,object,,Topic Name,/apollo/hmi/status
-time,int64,nano-seconds,Unix Time stamp,1.71398066063589E+018
-size,int64,,,1121
-msg_type,object,,,
-_id.$oid,object,,ROS Metadata,663110027ae1f4a1c6c6f69d
-metadataID.$oid,object,,ROS Metadata,66310ffc7ae1f4a1c6c6e856
-header.timestampSec,float64,seconds,Unix Time stamp,1713980660.63417
-header.moduleName,object,,Module Name,HMI
-header.sequenceNum,float64,,Message update number,79
-modes,object,,Vehicle modes (Debug/ Navigation/ RTK/ etc),"['Mkz Standard Debug', 'Ipc1 Mkz Standard Debug', 'Navigation', 'Mkz Standard Debug Smart Recorder', 'Ipc2 Mkz Close Loop', 'Mkz Close Loop', 'AStuff Core', 'Car Teleop', 'AStuff Perception', 'Ipc1 Mkz Close Loop', 'Rtk', 'Map Collection', 'Console Teleop', 'Vehicle Calibration', 'Ipc2 Mkz Standard Debug']"
-currentMode,object,,Current Vehicle mode,AStuff Core
-maps,object,,Available maps in directory,"['Ohio Athens Red V4', 'Ohio Athens Blue V2b', 'Ohio Athens Blue V2c', 'Sunnyvale With Two Offices', 'San Mateo', 'Ohio Athens Blue V1', 'Ohio Athens Blue V3', 'Ohio Athens Blue V4', 'Sunnyvale Big Loop', 'Ohio Athens Blue V4a', 'Ohio Ridges V3', 'Ohio Sports Complex V1', 'Ohio Sports Complex V2', 'Ohio Athens Green V1', 'Sunnyvale Loop', 'Ohio Athens Green V4.35', 'Ohio Athens Green V3', 'Ohio Athens Red V2']"
-currentMap,object,,Current map,Ohio Ridges V3
-vehicles,object,,list of vehicles,"['Pacifica', 'Mkz Example', 'AStuff Transit', 'AStuff Lexus', 'Dev Kit']"
-currentVehicle,object,,Current vehicle,Pacifica
-dockerImage,object,,,apolloauto/apollo:dev-18.04-x86_64-20191111_1530
-utmZoneId,float64,,UTM zone,17
-modules.GPS,Boolean,,GPS status (True/ False),True
-modules.Radar,Boolean,,RADAR status (True/ False),False
-modules.Localization,Boolean,,Localization status (True/ False),True
-modules.Canbus,Boolean,,Canbus status (True/ False),True
-modules.Traffic Light,Boolean,,Traffic light status (True/ False),True
-modules.Control,Boolean,,Control status (True/ False),True
-modules.Camera,Boolean,,Camera status (True/ False),True
-modules.Planning,Boolean,,Planning status (True/ False),True
-modules.Transform,Boolean,,Transform status (True/ False),True
-modules.Routing,Boolean,,Routing status (True/ False),True
-monitoredComponents.ESD-CAN.status,object,,,ERROR
-monitoredComponents.ESD-CAN.message,object,,,NTCAN_NET_NOT_FOUND
-monitoredComponents.Localization.status,object,,,OK
-monitoredComponents.GPS.status,object,,,OK
-monitoredComponents.GPS.message,object,,,mainboard -d /apollo/modules/drivers/gnss/dag/gnss.dag -p gnss -s CYBER_DEFAULT 
+Column Name,Data Type,Units,Description
+topic,object,,Topic Name
+time,int64,nano-seconds,Unix Time stamp
+size,int64,Bytes,Message size
+msg_type,object,,
+_id.$oid,object,,ROS Metadata
+metadataID.$oid,object,,ROS Metadata
+header.timestampSec,float64,seconds,Unix Time stamp
+header.moduleName,object,,Module Name
+header.sequenceNum,float64,,Message update number
+modes,object,,Vehicle modes (Debug/ Navigation/ RTK/ etc)
+currentMode,object,,Current Vehicle mode
+maps,object,,Available maps in directory
+currentMap,object,,Current map
+vehicles,object,,list of vehicles
+currentVehicle,object,,Current vehicle
+dockerImage,object,,Docker Image path
+utmZoneId,float64,,UTM zone
+modules.GPS,Boolean,,GPS status (True/ False)
+modules.Radar,Boolean,,RADAR status (True/ False)
+modules.Localization,Boolean,,Localization status (True/ False)
+modules.Canbus,Boolean,,Canbus status (True/ False)
+modules.Traffic Light,Boolean,,Traffic light status (True/ False)
+modules.Control,Boolean,,Control status (True/ False)
+modules.Camera,Boolean,,Camera status (True/ False)
+modules.Planning,Boolean,,Planning status (True/ False)
+modules.Transform,Boolean,,Transform status (True/ False)
+modules.Routing,Boolean,,Routing status (True/ False)
+monitoredComponents.ESD-CAN.status,object,,
+monitoredComponents.ESD-CAN.message,object,,
+monitoredComponents.Localization.status,object,,
+monitoredComponents.GPS.status,object,,
+monitoredComponents.GPS.message,object,,

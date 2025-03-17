@@ -1,31 +1,31 @@
-Column Name,Data Type,Units,Description,First Value
-topic,object,,Topic Name,/apollo/canbus/chassis
-time,int64,Nano-seconds,Unix Time Stamp,1.71398065590496E+018
-size,int64,,,134
-msg_type,object,,,
-steeringRate,float64,,,0
-gearLocation,object,,Gear Status (GEAR_DRIVE),GEAR_DRIVE
-_id.$oid,object,,ROS Metadata,66310ffc7ae1f4a1c6c6e85c
-metadataID.$oid,object,,ROS Metadata,66310ffc7ae1f4a1c6c6e856
-header.timestampSec,float64,seconds,Unix Time Stamp,1713980655.90477
-header.moduleName,object,,Topic Module name,canbus
-header.sequenceNum,float64,,Message update number,18251
-engageAdvice.advice,object,,Availability of Autonomous control (READY_TO_ENGAGE),READY_TO_ENGAGE
-engineStarted,Boolean,,Is Engine started (True = Engine started/ False = Engine off) ,True
-speedMps,float64,,,2.7951403
-fuelRangeM,float64,,,0
-throttlePercentage,float64,,Percentage of throttle (0%-100%),0
-brakePercentage,float64,,Percentage of brake (0%-100%),0
-steeringPercentage,float64,,Percentage of steering wheel turn (0 represents straight/ 360 is one rotation/ counter clockwise is positive),43.948204
-drivingMode,object,,Current Driving mode (COMPLETE_MANUAL/ COMPLETE_AUTO_DRIVE),COMPLETE_MANUAL
-errorCode,object,,Displays error code,NO_ERROR
-yawRate,float64,,,0
-signal.turnSignal,object,,Turn signal usage (TURN_NONE/ TURN_RIGHT/ TURN_LEFT),TURN_NONE
-wheelSpeed.isWheelSpdRrValid,Boolean,,,True
-wheelSpeed.wheelSpdRr,float64,,,8.11578464508057
-wheelSpeed.isWheelSpdRlValid,Boolean,,,True
-wheelSpeed.wheelSpdRl,float64,,,7.06858634948731
-wheelSpeed.isWheelSpdFrValid,Boolean,,,True
-wheelSpeed.wheelSpdFr,float64,,,8.22050476074219
-wheelSpeed.isWheelSpdFlValid,Boolean,,,True
-wheelSpeed.wheelSpdFl,float64,,,7.27802610397339
+Column Name,Data Type,Units,Description
+topic,object,,Topic Name
+time,int64,Nano-seconds,Unix Time Stamp
+size,int64,bytes,Message size
+msg_type,object,,
+steeringRate,float64,,
+gearLocation,object,,Gear Status (GEAR_DRIVE)
+_id.$oid,object,,ROS Metadata
+metadataID.$oid,object,,ROS Metadata
+header.timestampSec,float64,seconds,Unix Time Stamp
+header.moduleName,object,,Topic Module name
+header.sequenceNum,float64,,Message update number
+engageAdvice.advice,object,,Availability of Autonomous control (READY_TO_ENGAGE)
+engineStarted,Boolean,,Is Engine started (True = Engine started/ False = Engine off) 
+speedMps,float64,,
+fuelRangeM,float64,,
+throttlePercentage,float64,,Percentage of throttle (0%-100%)
+brakePercentage,float64,,Percentage of brake (0%-100%)
+steeringPercentage,float64,,Percentage of steering wheel turn (0 represents straight/ 360 is one rotation/ counter clockwise is positive)
+drivingMode,object,,Current Driving mode (COMPLETE_MANUAL/ COMPLETE_AUTO_DRIVE)
+errorCode,object,,Displays error code
+yawRate,float64,,
+signal.turnSignal,object,,Turn signal usage (TURN_NONE/ TURN_RIGHT/ TURN_LEFT)
+wheelSpeed.isWheelSpdRrValid,Boolean,,Rear Right wheel
+wheelSpeed.wheelSpdRr,float64,,Rear Right wheel
+wheelSpeed.isWheelSpdRlValid,Boolean,,Rear Left wheel
+wheelSpeed.wheelSpdRl,float64,,Rear Left wheel
+wheelSpeed.isWheelSpdFrValid,Boolean,,Front Right wheel
+wheelSpeed.wheelSpdFr,float64,,Front Right wheel
+wheelSpeed.isWheelSpdFlValid,Boolean,,Front Left wheel
+wheelSpeed.wheelSpdFl,float64,,Front Left wheel

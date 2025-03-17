@@ -1,17 +1,17 @@
-Column Name,Data Type,Units,Description,First Value
-topic,object,,Topic name,/apollo/sensor/gnss/corrected_imu
-time,int64,nano-seconds,Unix Time stamp,1.71398065704876E+018
-size,int64,,,100
-msg_type,object,,,
-_id.$oid,object,,ROS Metadata,66310ffd7ae1f4a1c6c6ea52
-metadataID.$oid,object,,ROS Metadata,66310ffc7ae1f4a1c6c6e856
-header.timestampSec,float64,seconds,Unix Time stamp,1713980656.99
-imu.linearAcceleration.x,float64,,IMU Linear acceleration measurement (x component),-0.843330138459878
-imu.linearAcceleration.y,float64,,IMU Linear acceleration measurement (y component),-0.285702326154789
-imu.linearAcceleration.z,float64,,IMU Linear acceleration measurement (z component),0.519402210310473
-imu.angularVelocity.x,float64,,IMU Angular acceleration measurement (x component),-0.006150064636375
-imu.angularVelocity.y,float64,,IMU Angular acceleration measurement (y component),0.002477940059846
-imu.angularVelocity.z,float64,,IMU Angular acceleration measurement (z component),0.293372934624027
-imu.eulerAngles.x,float64,,IMU Euler angle measurement (x component),-0.027996794164259
-imu.eulerAngles.y,float64,,IMU Euler angle measurement (y component),-0.005917332004482
-imu.eulerAngles.z,float64,,IMU Euler angle measurement (z component),-1.65116634085902
+Column Name,Data Type,Units,Description
+topic,object,,Topic name
+time,int64,nano-seconds,Unix Time stamp
+size,int64,Bytes,Message size
+msg_type,object,,
+_id.$oid,object,,ROS Metadata
+metadataID.$oid,object,,ROS Metadata
+header.timestampSec,float64,seconds,Unix Time stamp
+imu.linearAcceleration.x,float64,,IMU Linear acceleration measurement (x component)
+imu.linearAcceleration.y,float64,,IMU Linear acceleration measurement (y component)
+imu.linearAcceleration.z,float64,,IMU Linear acceleration measurement (z component)
+imu.angularVelocity.x,float64,,IMU Angular acceleration measurement (x component)
+imu.angularVelocity.y,float64,,IMU Angular acceleration measurement (y component)
+imu.angularVelocity.z,float64,,IMU Angular acceleration measurement (z component)
+imu.eulerAngles.x,float64,,IMU Euler angle measurement (x component)
+imu.eulerAngles.y,float64,,IMU Euler angle measurement (y component)
+imu.eulerAngles.z,float64,,IMU Euler angle measurement (z component)

@@ -1,11 +1,11 @@
-Column Name,Data Type,Units,Description,First Value
-topic,object,,Topic name,/apollo/control/pad
-time,int64,nano-seconds,Unix Time stamp,1.71398067154514E+018
-size,int64,,,20
-msg_type,object,,,
-_id.$oid,object,,ROS Metadata,6631100d7ae1f4a1c6c71ba7
-metadataID.$oid,object,,ROS Metadata,663110067ae1f4a1c6c706f4
-header.timestampSec,float64,seconds,Unix Time stamp,1713980671.545
-header.moduleName,object,,Module name,HMI
-header.sequenceNum,float64,,message update number,11
-action,object,,,RESET
+Column Name,Data Type,Units,Description
+topic,object,,Topic name
+time,int64,nano-seconds,Unix Time stamp
+size,int64,Bytes,Message Size
+msg_type,object,,
+_id.$oid,object,,ROS Metadata
+metadataID.$oid,object,,ROS Metadata
+header.timestampSec,float64,seconds,Unix Time stamp
+header.moduleName,object,,Module name
+header.sequenceNum,float64,,message update number
+action,object,,

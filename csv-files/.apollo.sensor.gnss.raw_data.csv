@@ -1,8 +1,8 @@
-Column Name,Data Type,Units,Description,First Value
-topic,object,,Topic name,/apollo/sensor/gnss/raw_data
-time,int64,nano-seconds,Unix Time stamp,1.71398065704868E+018
-size,int64,,,161
-msg_type,object,,,
-_id.$oid,object,,ROS Metadata,66310ffd7ae1f4a1c6c6ea51
-metadataID.$oid,object,,ROS Metadata,66310ffc7ae1f4a1c6c6e856
-data,object,,Raw GNSS data,qkQSHLkFAKB+AAAASbQHCbi7QRMAAAAC60bzQgMAAAA4AAAAMnIH+gapQ0BYolPMDIdUwAAA0orGImtAAAAMwubDQuRlT8i/NQpLOtSDA0BUh0c52smdP568UrhopPm/+52o1LFk1r/Vvlgj3ptXQET7Dj19eA09edUOPfs3TzwT3008s5YiPC/rrDzPTao83fWjPlECAKsAAH6tT0Y=
+Column Name,Data Type,Units,Description
+topic,object,,Topic name
+time,int64,nano-seconds,Unix Time stamp
+size,int64,Bytes,Message Size
+msg_type,object,,
+_id.$oid,object,,ROS Metadata
+metadataID.$oid,object,,ROS Metadata
+data,object,,Raw GNSS data

@@ -1,11 +1,11 @@
-Column Name,Data Type,Units,Description,First Value
-topic,object,,Topic name,/apollo/perception/traffic_light
-time,int64,nano-seconds,Unix Time stamp,1.71398065607683E+018
-size,int64,,,27
-msg_type,object,,,
-_id.$oid,object,,ROS Metadata,66310ffc7ae1f4a1c6c6e8a0
-metadataID.$oid,object,,ROS Metadata,66310ffc7ae1f4a1c6c6e856
-header.timestampSec,float64,seconds,Unix Time stamp,1713980656.07662
-header.cameraTimestamp,object,nano-seconds,Camera Time stamp,1.71398065605761E+018
-cameraId,object,,Camera used for traffic light detection,CAMERA_FRONT_LONG
-trafficLightDebug.signalNum,float64,,Debug code,0
+Column Name,Data Type,Units,Description
+topic,object,,Topic name
+time,int64,nano-seconds,Unix Time stamp
+size,int64,Bytes,Message size
+msg_type,object,,
+_id.$oid,object,,ROS Metadata
+metadataID.$oid,object,,ROS Metadata
+header.timestampSec,float64,seconds,Unix Time stamp
+header.cameraTimestamp,object,nano-seconds,Camera Time stamp
+cameraId,object,,Camera used for traffic light detection
+trafficLightDebug.signalNum,float64,,Debug code

@@ -1,11 +1,11 @@
-Column Name,Data Type,Units,Description,First Value
-topic,object,,Topic name,/apollo/localization/msf_status
-time,int64,nano-seconds,Unix Time stamp,1.71398065590251E+018
-size,int64,,,24
-msg_type,object,,,
-_id.$oid,object,,ROS Metadata,66310ffc7ae1f4a1c6c6e85a
-metadataID.$oid,object,,ROS Metadata,66310ffc7ae1f4a1c6c6e856
-header.timestampSec,float64,seconds,Unix Time stamp,1713980655.90189
-measurementTime,float64,seconds,Measurement time stamp,1713980655.51359
-fusionStatus,object,,,OK
-stateMessage,object,,,
+Column Name,Data Type,Units,Description
+topic,object,,Topic name
+time,int64,nano-seconds,Unix Time stamp
+size,int64,bytes,Message size
+msg_type,object,,
+_id.$oid,object,,ROS Metadata
+metadataID.$oid,object,,ROS Metadata
+header.timestampSec,float64,seconds,Unix Time stamp
+measurementTime,float64,seconds,Measurement time stamp
+fusionStatus,object,,EKF Filter Status
+stateMessage,object,,

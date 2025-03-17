@@ -1,7 +1,7 @@
 Column Name,Data Type,Units,Description
-topic,object,,
+topic,object,,Topic Name
 time,int64,nano-seconds,Unix Time Stamp
-size,int64,,
+size,int64,Bytes,Message size
 msg_type,object,,
 _id.$oid,object,,ROS Metadata
 metadataID.$oid,object,,ROS Metadata

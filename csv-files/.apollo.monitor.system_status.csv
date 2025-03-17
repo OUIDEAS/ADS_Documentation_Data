@@ -1,40 +1,40 @@
-Column Name,Data Type,Units,Description,First Value
-topic,object,,Topic name,/apollo/monitor/system_status
-time,int64,nano-seconds,Unix Time stamp,1.7139806654365E+018
-size,int64,,,1362
-msg_type,object,,,
-_id.$oid,object,,ROS Metadata,663110067ae1f4a1c6c706e2
-metadataID.$oid,object,,ROS Metadata,66310ffc7ae1f4a1c6c6e856
-header.timestampSec,float64,seconds,Unix Time stamp,1713980665.43288
-header.moduleName,object,,Module name,SystemMonitor
-header.sequenceNum,float64,,Message update number,42
-hmiModules.Canbus.status,object,,Canbus module status (OK/ FATAL),OK
-hmiModules.Canbus.message,object,,,mainboard -d /apollo/modules/canbus/dag/canbus.dag -p canbus -s CYBER_DEFAULT 
-hmiModules.Routing.status,object,,Routing module status (OK/ FATAL),OK
-hmiModules.Routing.message,object,,,mainboard -d /apollo/modules/routing/dag/routing.dag -p mainboard_default_16375 -s CYBER_DEFAULT 
-hmiModules.Localization.status,object,,Localization module status (OK/ FATAL),OK
-hmiModules.Localization.message,object,,,mainboard -d /apollo/modules/localization/dag/dag_streaming_rtk_localization.dag -p localization -s CYBER_DEFAULT 
-hmiModules.Traffic Light.status,object,,Traffic Light module status (OK/ FATAL),OK
-hmiModules.Traffic Light.message,object,,,mainboard -d /apollo/modules/perception/production/dag/dag_streaming_perception_trafficlights.dag -p perception_trafficlights -s CYBER_DEFAULT 
-hmiModules.Transform.status,object,,Transform module status (OK/ FATAL),OK
-hmiModules.Transform.message,object,,,mainboard -d /apollo/modules/transform/dag/static_transform.dag -p static_transform -s CYBER_DEFAULT 
-hmiModules.Planning.status,object,,Planning module status (OK/ FATAL),OK
-hmiModules.Planning.message,object,,,mainboard -d /apollo/modules/planning/dag/planning.dag -p planning -s CYBER_DEFAULT 
-hmiModules.Control.status,object,,Control module status (OK/ FATAL),OK
-hmiModules.Control.message,object,,,mainboard -d /apollo/modules/control/dag/control.dag -p control -s CYBER_DEFAULT 
-hmiModules.Camera.status,object,,Camera sensor status (OK/ FATAL),OK
-hmiModules.Camera.message,object,,,mainboard -d /apollo/modules/drivers/camera/dag/camera.dag -p usb_cam -s CYBER_DEFAULT 
-hmiModules.GPS.status,object,,GPS status (OK/ FATAL),OK
-hmiModules.GPS.message,object,,,mainboard -d /apollo/modules/drivers/gnss/dag/gnss.dag -p gnss -s CYBER_DEFAULT 
-hmiModules.Radar.status,object,,RADAR sensor status (OK/ FATAL),FATAL
-components.Localization.summary.status,object,,,OK
-components.Localization.otherStatus.status,object,,,OK
-components.GPS.summary.status,object,,,OK
-components.GPS.summary.message,object,,,mainboard -d /apollo/modules/drivers/gnss/dag/gnss.dag -p gnss -s CYBER_DEFAULT 
-components.GPS.processStatus.status,object,,,OK
-components.GPS.processStatus.message,object,,,mainboard -d /apollo/modules/drivers/gnss/dag/gnss.dag -p gnss -s CYBER_DEFAULT 
-components.GPS.otherStatus.status,object,,,OK
-components.ESD-CAN.summary.status,object,,,ERROR
-components.ESD-CAN.summary.message,object,,,NTCAN_NET_NOT_FOUND
-components.ESD-CAN.otherStatus.status,object,,,ERROR
-components.ESD-CAN.otherStatus.message,object,,,NTCAN_NET_NOT_FOUND
+Column Name,Data Type,Units,Description
+topic,object,,Topic name
+time,int64,nano-seconds,Unix Time stamp
+size,int64,Bytes,Message size
+msg_type,object,,
+_id.$oid,object,,ROS Metadata
+metadataID.$oid,object,,ROS Metadata
+header.timestampSec,float64,seconds,Unix Time stamp
+header.moduleName,object,,Module name
+header.sequenceNum,float64,,Message update number
+hmiModules.Canbus.status,object,,Canbus module status (OK/ FATAL)
+hmiModules.Canbus.message,object,,
+hmiModules.Routing.status,object,,Routing module status (OK/ FATAL)
+hmiModules.Routing.message,object,,
+hmiModules.Localization.status,object,,Localization module status (OK/ FATAL)
+hmiModules.Localization.message,object,,
+hmiModules.Traffic Light.status,object,,Traffic Light module status (OK/ FATAL)
+hmiModules.Traffic Light.message,object,,
+hmiModules.Transform.status,object,,Transform module status (OK/ FATAL)
+hmiModules.Transform.message,object,,
+hmiModules.Planning.status,object,,Planning module status (OK/ FATAL)
+hmiModules.Planning.message,object,,
+hmiModules.Control.status,object,,Control module status (OK/ FATAL)
+hmiModules.Control.message,object,,
+hmiModules.Camera.status,object,,Camera sensor status (OK/ FATAL)
+hmiModules.Camera.message,object,,
+hmiModules.GPS.status,object,,GPS status (OK/ FATAL)
+hmiModules.GPS.message,object,,
+hmiModules.Radar.status,object,,RADAR sensor status (OK/ FATAL)
+components.Localization.summary.status,object,,
+components.Localization.otherStatus.status,object,,
+components.GPS.summary.status,object,,
+components.GPS.summary.message,object,,
+components.GPS.processStatus.status,object,,
+components.GPS.processStatus.message,object,,
+components.GPS.otherStatus.status,object,,
+components.ESD-CAN.summary.status,object,,
+components.ESD-CAN.summary.message,object,,
+components.ESD-CAN.otherStatus.status,object,,
+components.ESD-CAN.otherStatus.message,object,,

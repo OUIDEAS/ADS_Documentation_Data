@@ -1,11 +1,11 @@
-Column Name,Data Type,Units,Description,First Value
-topic,object,,Topic Name,/apollo/common/latency_reports
-time,int64,nano-seconds,Unix Time stamp,1.7139806644394E+018
-size,int64,,,68
-msg_type,object,,,
-_id.$oid,object,,ROS Metadata,663110057ae1f4a1c6c7037e
-metadataID.$oid,object,,ROS Metadata,66310ffc7ae1f4a1c6c6e856
-header.timestampSec,float64,seconds,Unix Time stamp,1713980664.43801
-header.moduleName,object,,Module name,LatencyReport
-header.sequenceNum,float64,,message update number,18
-modulesLatency.latencyTrack,object,,,"[{'latencyName': '/apollo/control', 'latencyStat': {'minDuration': '117113', 'maxDuration': '1491149', 'averDuration': '230489', 'sampleSize': 903}}]"
+Column Name,Data Type,Units,Description
+topic,object,,Topic Name
+time,int64,nano-seconds,Unix Time stamp
+size,int64,Bytes,Message size
+msg_type,object,,
+_id.$oid,object,,ROS Metadata
+metadataID.$oid,object,,ROS Metadata
+header.timestampSec,float64,seconds,Unix Time stamp
+header.moduleName,object,,Module name
+header.sequenceNum,float64,,message update number
+modulesLatency.latencyTrack,object,,
